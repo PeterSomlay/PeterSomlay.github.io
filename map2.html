@@ -19,18 +19,18 @@
     </style>
 </head>
 <body>
-    <img src="alap1.png" alt="alap" style="width: 600px;">
+    <img src="alap2.png" alt="alap" style="width: 600px;">
 <br>
-    <button onclick="myFunction()">Nyomj meg !</button>
+    <button onclick="myFunction()">Nyomd meg !</button>
     <p id="demo"></p>
     <script>
         function myFunction() {
-            var text = "Helyes a megoldás ! Vegyél ki ennyi poharat a szekrényből.";
+            var text = "Helyes a megoldás !";
             var br = "</br>";
-            var text3 = "<a href='map2.html'><button>Folytatás</button></a>";
+            var text3 = "<a href='map3.html'><button>Folytatás</button></a>";
             var text2 = "Próbálkozz újra !";
-            var numberCheck = prompt("Írd be a képlet eredményét. 3+2x2-6:2");
-            if(numberCheck == 4){
+            var numberCheck = prompt("Mennyi ideig isznak a matrózok? Ha hat jókedvű, pörge bajszú, nagy pocakú matróz hat kupica pálinkát egy perc alatt tud legurítani, akkor 12 jókedvű, pörge bajszú, nagy pocakú matróz kétszer annyi kupica pálinkát mennyi idő alatt tud legurítani?");
+            if(numberCheck == 1){
                 document.getElementById("demo").innerHTML = text + br + text3;
             }else{
                 document.getElementById("demo").innerHTML = text2;
