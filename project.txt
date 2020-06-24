@@ -1,0 +1,12 @@
+Webpage gyors étterem
+--------------------
+Elérhetőség
+Megközelíthetőség
+--------------------
+Teljes étlap
+--------------------
+Aktuális akciók (egy időben több akvió is lehet)
+--------------------
+Hamburger
+Sör
+3 statikus weboldal
