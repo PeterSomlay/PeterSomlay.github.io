@@ -1,0 +1,245 @@
+body{
+  margin: 0px;
+}
+#page{
+  position: relative;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Abril Fatface', cursive;
+  height: 410px;
+  width: 1300px;
+  margin: auto;
+  background: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-position: center;
+  background-size: cover;
+}
+header h3{
+  font-size: 40px;
+  font-weight: 200;
+  margin: 0px;
+  
+}
+#headertext{
+  margin-top: 220px;
+}
+header h1{
+  font-size: 70px;
+  font-weight: 200;
+  margin: 0px;
+}
+main{
+  margin: auto;
+  font-family: 'Jost', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  width: 900px;
+}
+main #first{
+  width: 745px;
+  margin: 40px auto;
+}
+main > #first > ul, main > #third > ul,main > #fourth > ul,footer > ul{
+  list-style-type: square;
+}
+#firstbox::before{
+  margin-top: -42px;
+  margin-left: -78px;
+  content: open-quote;
+  position: relative;
+  font-size: 3em;
+}
+#firstbox{
+  display: flex;
+  justify-content: center;
+  background: #4B4A4A;
+  width: 850px;
+  height: 160px;
+  color: #FFF;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 49px;
+  margin: auto;
+}
+main h2{
+  letter-spacing: 3px;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+main #second{
+  width: 745px;
+  margin: 40px auto;
+}
+main #second b{
+  font-size: 24px;
+}
+main #second p{
+  font-size: 16.5px;
+}
+#secondbox{
+  display: flex;
+  background: #4B4A4A;
+  width: 850px;
+  height: 230px;
+  color: #FFF;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 49px;
+  margin: auto;
+}
+#secondbox > sup{
+  font-size: 3em;
+  margin-top: -42px;
+  margin-left: -2px;
+}
+main #third{
+  width: 745px;
+  margin: 40px auto;
+}
+main > #third > ul{
+  font-size: 16.5px;
+}
+main #third b{
+  font-size: 24px;
+}
+main #third p{
+  margin-top: 0px;
+  font-size: 18px;
+  font-family: 'Gabriela', serif;
+  letter-spacing: -1.5px;
+}
+#thirdbox{
+  display: flex;
+  background: #4B4A4A;
+  width: 850px;
+  height: 230px;
+  color: #FFF;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 49px;
+  margin: auto;
+}
+#thirdbox > sup{
+  font-size: 3em;
+  margin-top: -42px;
+  margin-left: -2px;
+}
+main #fourth{
+  width: 745px;
+  margin: 40px auto;
+}
+main > #fourth > ul{
+  font-size: 16.5px;
+}
+main #fourth b{
+  font-size: 24px;
+}
+main #fourth p{
+  margin-top: 0px;
+  font-size: 18px;
+  font-family: 'Gabriela', serif;
+  letter-spacing: -1.5px;
+}
+.line{
+  border: 2px solid #000;
+}
+hr{
+  margin-bottom: 40px;
+}
+footer{
+  width: 745px;
+  margin: auto;
+  font-family: 'Jost', sans-serif;
+  letter-spacing: 3px;
+}
+footer > ul{
+  margin-top: 50px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 70px;
+}
+.right{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: none;
+  background: lightgray;
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  transition: transform 230ms;
+}
+.left{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: none;
+  background: lightgray;
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  transition: transform 230ms;
+}
+#left{
+  position: fixed;
+  left: -120px;
+  top: 40%;
+}
+#right{
+  position: fixed;
+  right: -120px;
+  top: 40%;
+}
+
+.left:hover{
+  background: gray;
+  transform: translateX(50px);
+}
+
+.right:hover{
+  background: gray;
+  transform: translateX(-50px);
+}
+
+#message{
+  height: 50px;
+  float: right;
+}
+.far .fas{
+  display: inline;
+}
+.message1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: #FFFFFF;
+  font-weight: 500;
+  transition: width 230ms;
+}
+.message2{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: #FFFFFF;
+  font-weight: 500;
+  transition: width 230ms;
+}
+.message3{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: #FFFFFF;
+  font-weight: 500;
+  transition: width 230ms;
+}
+.message1:hover{
+  width: 100px;
+}
+.message2:hover{
+  width: 100px;
+}
+.message3:hover{
+  width: 100px;
+}
